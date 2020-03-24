@@ -4,9 +4,7 @@
   "description": "Yarn v2 RC 30 repro",
   "main": "index.js",
   "scripts": {
-    "dev:start": "bash -c 'NODE_ENV=development && webpack-dev-server'",
-    "dev:start-cross": "cross-env NODE_ENV=development && webpack-dev-server",
-    "build": "NODE_ENV=production && webpack -p"
+    "start": "bash -c 'NODE_ENV=development && webpack-dev-server'"
   },
   "author": "Dalinar Kholin",
   "license": "UNLICENSED",
