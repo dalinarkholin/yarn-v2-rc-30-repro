@@ -1,0 +1,17 @@
+{
+  "name": "@repo/config",
+  "version": "1.0.0",
+  "description": "Yarn repro RC 30",
+  "main": "index.js",
+  "author": "Dalinar Kholin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/webpack": "^4.41.4",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.15",
+    "pnp-webpack-plugin": "^1.6.0",
+    "webpack": "4.39.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
